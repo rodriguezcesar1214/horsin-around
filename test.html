@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="test.css"/>
+	<script type = "text/javascript" src = "jquery.js"></script>
+	<script type = "text/javascript" src = "test.js"></script>
+
+  </head>
+  <body>
+<div id="loader"></div>
+<section id="mainform" class="form animated flipInX">
+
+<div id="landingpage">
+ <h2>Login to Customer Account</h2>
+  <form class="loginbox" autocomplete="off">
+	<input placeholder="Name" type="text" id="clntname"></input>
+	<input placeholder="Address" type="text" id="address"></input>
+	<button id="submit" type="button" onclick="submitHandle()">Login</button>
+   </form>
+</div>
+
+
+
+<div id="checksec_0">
+<h2> Verify Customer Information </h2>
+<input type="checkbox" id="checkSSN" onclick="checkPass_0()">SSN: xxx-xx-0000</input> <br>
+<input type="checkbox" id="checkacc" onclick="checkPass_0()">Account #: 4238942389423</input> <br>
+<input type="checkbox" id="checkdog" onclick="checkPass_0()">Dog's Last Name: Fido</input> <br>
+</div>
+
+<div id="confirmsec" >
+<p>Que onda putxs</p>
+</div>
+
+<!-- make sure the button is put last -->
+<div id="confirmbutton">
+<button id="finalsubmit" type="button">Submit</button>
+</div>
+
+</section>
+  
+  </body>
+</html>
